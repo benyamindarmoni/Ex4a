@@ -9,7 +9,6 @@ namespace bullpgia{
     class SmartGuesser : public bullpgia:: Guesser{
     public:
         string number;
-        uint len;
         
         string guess() override;
         void startNewGame(uint)override ;
