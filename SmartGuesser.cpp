@@ -9,7 +9,7 @@ namespace bullpgia{
      return "";
  }
  void SmartGuesser::startNewGame(uint a) {
-     len=a;
+     length=a;
  }
  void SmartGuesser::learn(string a) {
      
